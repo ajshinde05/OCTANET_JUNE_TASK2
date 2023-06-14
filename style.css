@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	background: rgb(201, 132, 220);
+}
+
+.container {
+	position: relative;
+	max-width: 700px;
+	padding: 10px 20px;
+	margin-left: 350px;
+	margin-top: 10px;
+}
+
+.container h1 {
+	padding-bottom: 40px;
+	padding-left: 180px;
+	color: white;
+	font-weight: 200;
+}
+
+.addTask {
+	width: 98%;
+	display: flex;
+	padding: 10px 0;
+}
+
+.addTask>input[type="text"] {
+	color: black;
+	border: none;
+	border-bottom: 2px solid black;
+	width: 80%;
+	background: none;
+	padding: 10px;
+	font-size: 22px;
+	outline: none;
+}
+
+.addTask button {
+	margin: 0 5px;
+	background: black;
+	color: #fff;
+	width: 70px;
+	height: 40px;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.notCompleted,
+.Completed {
+	margin: 8px 0;
+	padding: 20px 0;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 200;
+	text-align: left;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	width: 35%;
+	margin-bottom: 10px;
+}
+
+ol {
+	list-style: none;
+}
+
+ol li {
+	width: 80%;
+	padding: 12px;
+	margin: 8px 0;
+	border-radius: 10px;
+	background: #ff0381b6;
+	font-size: 20px;
+	color: white;
+}
+
+ol.Completed li {
+	background: #32f410;
+}
+
+li button {
+	float: right;
+	padding: 5px;
+	font-size: 28px;
+	line-height: 28px;
+	margin-right: 15px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
